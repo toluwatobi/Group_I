@@ -1,0 +1,165 @@
+@import "templatecolours.css";
+
+/*BODY MARGIN*/
+body
+{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* NAVIGATION BAR*/
+nav>ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav>ul>li{
+    float: left;
+}
+
+nav>ul>li>a{
+    display: block;
+    color: #c2b7b7;
+    text-align: right;
+    padding: 30px;
+    text-decoration: none;
+}
+
+/* no observed change*/
+li>a hover{
+    color: #363636; 
+}
+
+/* IMAGE SIZING CSS*/
+
+#shwplogo
+{
+    width: 100px;
+    float: left;
+    padding-right: 500px;
+}
+#csdmlogo
+{
+    width: 300px;
+}
+
+#banner
+{
+    max-width: 950px;
+}
+
+#hos
+{
+    width: 200px;
+    float: left;
+    padding-right: 10px;
+}
+
+/*TEXT STYLING*/
+
+h1{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+}
+
+p, h2, h3, h4, h5, a{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+}
+
+h3, h4, h5 {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+
+}
+
+/*COLOURING*/
+
+#news
+{
+    background-color: #DBC9DF;
+}
+
+#events
+{
+    background-color: #782A7E;
+}
+
+footer{
+    background-color: #363636;
+}
+
+aside, p, h3, h4{
+    color: white;
+}
+
+/*MARGIN FIXES*/
+
+aside, p, h3, h4 {
+    margin: 0;
+}
+
+aside, h3{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside, h4{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside, p{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside{
+    padding-right: 0px;
+    padding-top: -5px;
+}
+
+main{
+    padding-right: 0px;
+}
+
+/*FONT FIXES*/
+
+h1{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+p{
+    font-size: 13px;
+}
+
+a{
+    font-size: 13px;
+}
+
+/*FOOTER FIXES*/
+
+footer>p{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
