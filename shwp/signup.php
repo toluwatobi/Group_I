@@ -113,6 +113,7 @@
                                     <td><input type="submit" value="Sign Up"></td>
                                 </tr>
                             </table>
+                            <h3>Already have an account before? <a href="signin.php">Sign In</a>!</h3>
                         </fieldset>
                     </form>
                 </section>

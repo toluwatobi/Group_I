@@ -49,15 +49,22 @@
                                 <td><input type="password" id="text" name="password" placeholder="password" required></td>
                             </tr>
                             <tr>
+                                <td><br></td>
+                                <td><a href="reset.php">forgot your password/username?<a></td>
+                            </tr>
+                            <tr>
                                 <td><button type = "Submit" name = "Submit" > Log in </button></td>
+                                <td><a href="index.php">Cancel</a></td>
                             </tr>
                         </table>
+                        <h3>Don't have an account yet? <a href="signup.php">Sign up</a></h3>
                     </fieldset>
                 </form>
             </section>
         </main>           
         <!--MAIN END-->
 
+        
 <?php
 include_once 'footer.php';
 ?> 
