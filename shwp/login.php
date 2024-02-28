@@ -36,17 +36,17 @@
         <!--MAIN START-->
         <main class="grid-container">
             <section class="grid-50">
-                <form action="#" method="POST" >
+                <form action="assets/PHP/log_in.php" method="POST" >
                     <fieldset>
                         <legend><strong>Log In</strong></legend>
                         <table>
                             <tr>
-                                <td><label for= "user_name"> Username </label></td>
-                                <td><input type="text" id="text" name="user_name" placeholder="Username" required></td>
+                                <td><label for= "username"> Username </label></td>
+                                <td><input type="username" id="text" name="username" placeholder="Username" required></td>
                             </tr>                                
                             <tr>
                                 <td><label for="password"> Password </label></td>
-                                <td><input type="password" id="text" name="password" placeholder="password" required></td>
+                                <td><input type="password" id="password" name="password" placeholder="password" required></td>
                             </tr>
                             <tr>
                                 <td><br></td>
@@ -61,7 +61,15 @@
                     </fieldset>
                 </form>
             </section>
-        </main>           
+        </main>   
+        
+        
+        <?php
+             if (isset($_SESSION["profile_locked"]) && $_SESSION["profile_locked"]) {
+            echo "<p>Your profile is locked. Please try again later.</p>";
+            exit();
+            }
+            ?>
         <!--MAIN END-->
 
         

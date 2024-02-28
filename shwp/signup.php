@@ -44,7 +44,7 @@
                             <table>
                                 <tr>
                                     <td><label for="title">Title:</label></td>
-                                    <td><select name="Prefix_title">
+                                    <td><select name="prefix_title">
                                         <option value="">Select how we can best address you</option>
                                         <option value="">Mr</option>
                                         <option value="">Mrs</option>
@@ -54,12 +54,12 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td><label for="firstname">FirstName<font color="red">*</font>:</label></td>
-                                    <td><input type="text" name="firstname" value="" max-length="20" placeholder="FirstName" required/></td>
+                                    <td><label for="first_name">FirstName<font color="red">*</font>:</label></td>
+                                    <td><input type="first_name" name="first_name" value="" max-length="20" placeholder="FirstName" required/></td>
                                 </tr>
                                 <tr>
                                     <td><label for="surname">Surname<font color="red">*</font>:</label></td>
-                                    <td><input type="text" name="surname" value="" max-length="20" placeholder="Surname" required/></td>
+                                    <td><input type="surname" name="surname" value="" max-length="20" placeholder="Surname" required/></td>
                                 </tr>
                                 <tr>
                                     <td><label for="phone">Phone No<font color="red">*</font>:</label></td>
@@ -74,7 +74,7 @@
                                     <td><input type="email" name="email_add" value="" placeholder="user@domain.com" required></td>
                                 </tr>
                                 <tr>
-                                    <td><label for="birthday">Date of Birth<font color="red">*</font>:</label></td>
+                                    <td><label for="dob">Date of Birth<font color="red">*</font>:</label></td>
                                     <td><input type="date" name="birthdate" value="" required/></td>
                                 </tr>
                                 <tr>
@@ -91,7 +91,7 @@
                                 </tr>
                                 <tr>
                                     <td><label>Username<font color="red">*</font>:</label></td>
-                                    <td><input type="User" name="user" id="user_id" min-lenght="4" max-length="10" value="" placeholder="choose your Username" required></td>
+                                    <td><input type="username" name="username" id="user_id" min-lenght="4" max-length="10" value="" placeholder="choose your Username" required></td>
                                 </tr>
                                 <tr>
                                     <td><label>Password<font color="red">*</font>:</label></td>
